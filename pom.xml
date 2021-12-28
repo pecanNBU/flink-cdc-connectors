@@ -118,6 +118,13 @@ under the License.
             <scope>provided</scope>
         </dependency>
 
+        <!--  Use fixed version 18.0-13.0 of flink shaded guava  -->
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-shaded-guava</artifactId>
+            <version>18.0-13.0</version>
+        </dependency>
+
         <!-- test dependencies -->
 
         <dependency>
